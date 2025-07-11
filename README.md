@@ -10,6 +10,8 @@ Card-Mod permite aplicar estilos CSS directamente a las tarjetas de Home Assista
 
 ## 2. 🔤 Cambiar el color del texto en tarjetas entities
 
+![](assets/Cambiar%20el%20color%20del%20texto%20en%20tarjetas.PNG)
+
 ```yaml
 type: entities
 entities:
@@ -31,6 +33,8 @@ Esto cambia el color del texto de cada entidad. Puedes ver ejemplos similares en
 
 ## 3. ⚠️ Alertas con colores personalizados
 
+![](assets/Alertas%20con%20colores%20personalizados.PNG)
+
 ```html
 <ha-alert alert-type="error">This is an error alert — check it out!</ha-alert>
 <ha-alert alert-type="warning">This is a warning alert — check it out!</ha-alert>
@@ -41,6 +45,8 @@ Estas alertas son útiles para mostrar mensajes destacados con colores según el
 ```
 
 ## 4. 🟪 Tarjeta personalizada con colores de fondo y texto
+
+![](assets/colores%20de%20fondo%20y%20texto.PNG)
 
 ```yaml
 type: custom:button-text-card
@@ -57,6 +63,8 @@ Ideal para destacar información importante.
 
 Fondo sólido
 
+![](assets/Establecer%20un%20color%20como%20fondo.PNG)
+
 ```yaml
 card_mod:
   style: |
@@ -66,6 +74,8 @@ card_mod:
 ```
 
 Fondo con opacidad
+
+![](assets/Establecer%20color%20como%20fondo%20y%20opacidad.PNG)
 
 ```yaml
 card_mod:
@@ -78,6 +88,8 @@ card_mod:
 
 Fondo con degradado RGB
 
+![](assets/degradado%20de%20colores%20como%20fondo.PNG)
+
 ```yaml
 card_mod:
   style: |
@@ -87,6 +99,8 @@ card_mod:
 ```
 
 Fondo transparente
+
+![](assets/fondo%20transparente.PNG)
 
 ```yaml
 card_mod:
@@ -101,6 +115,8 @@ card_mod:
 
 Margen derecho
 
+![](assets/Margen%20derecho.PNG)
+
 ```yaml
 card_mod:
   style: |
@@ -111,20 +127,12 @@ card_mod:
 
 Margen izquierdo
 
+![](assets/Margen%20izquierdo.PNG)
+
 ```yaml
 card_mod:
   style: |
     ha-card {
       margin-left: 50px;
     }
-```
-
-
-
-
-![Alertas polen](assets/alertas_polen.PNG)
-
-
-```yaml
-
 ```
